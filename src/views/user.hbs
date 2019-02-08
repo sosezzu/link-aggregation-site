@@ -1,0 +1,6 @@
+<h2>{{aUser.username}}</h2>
+<br><br>
+{{#each aUser.articles as |article|}}
+	<br>
+	<a href={{article.url}}>{{article.title}}</a>
+{{/each}}

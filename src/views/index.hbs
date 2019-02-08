@@ -1,0 +1,5 @@
+<h2>Articles</h2>
+{{#each articles as |article|}}
+    <br>
+    <a href={{article.url}}>{{article.title}}</a> <a href="article/{{slug}}">details</a>
+{{/each}}

@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "test": "mocha test/test-auth.js"
-  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.16.3",
